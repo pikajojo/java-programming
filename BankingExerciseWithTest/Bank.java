@@ -125,6 +125,10 @@ public class Bank {
 			for (BankAccount bankAccount : accounts) {
 				System.out.println("index: " + accounts.indexOf(bankAccount) + ", ID: " + bankAccount.getID() + ", amount: " + bankAccount.getBalance());
 			}
+
+			if (accounts.size() == 0) {
+				System.out.println("No accounts");
+			}
 		}
 
     }
